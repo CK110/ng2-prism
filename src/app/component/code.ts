@@ -20,9 +20,7 @@ import {CommonModule} from "@angular/common";
 @Component({
     selector: 'z-code',
     template: `
-      <div *ngIf="code">
         <ng-content></ng-content>
-      </div>
     `
 })
 export class Code implements OnInit {
